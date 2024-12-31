@@ -20,7 +20,7 @@ oled.text("Fetching..", 0, 0)
 oled.show()
 
 # Fetch text from the server
-url = "https://esp.20022005.xyz/index.php?fetch=true"  # Replace <YOUR_SERVER_IP> with the server's IP
+url = "https://xxxxxxxxxxxxx.com/index.php?fetch=true"  # Replace <YOUR_SERVER_IP> with the server's IP
 try:
     response = urequests.get(url)
     if response.status_code == 200:  # Check for a successful response
